@@ -1,6 +1,6 @@
 # Data Engineer take home assingment
 
-This application processes the file dataset.json lacated in the data/ folder to a couple of derivatives and calculate a metric
+This application processes the file dataset.json lacated in the *data/* folder of the current project to a couple of derivatives and calculates a metric
 
 ## Table of Contents
 
@@ -14,22 +14,24 @@ This application processes the file dataset.json lacated in the data/ folder to 
 
 * [Git](http://git-scm.com/)
 * [Python3](https://www.python.org/downloads/)
-* [JAVA JDK 8 +](https://www.java.com/es/download/) 
+* [Java JDK 8 +](https://www.java.com/es/download/) 
 
 ### Installation
 
 * `git clone ` this repository
-* change into the new directory `cd data-engineer-take-home-test`
+* change into the new directory `cd data-engineer-test`
 
-You will need to install the requirements from requirements.txt
+You will need to install the requirements from requirements.txt. Following one of the next options:
 
 ```bash
 python3 -m pip install -r requirements.txt
+pip intall -r requirements.txt
 ```
 
 ### Test
 
-In order to run the tests the requirements should be intalled. Run the following line
+In order to run the tests the requirements should be intalled. 
+Run the following line to run the tests
 
 ```bash
 pytest test/unit.py
