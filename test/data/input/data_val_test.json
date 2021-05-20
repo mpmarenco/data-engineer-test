@@ -1,0 +1,6 @@
+{"initiator_id":"1234444","timestamp":"2020-01-08T06:21:14.000Z","event":"registered"}
+{"initiator_id":1234444,"timestamp":"2020-01-08T06:24:42.000Z","event":"app_loaded","browser_version":"79.0"}
+{"initiator_id":1234449,"timestamp":"2020-01-08T17:55:07.000Z","event":"registered","channel":"invite","campaign":"branded"}
+{"initiator_id":1234449,"timestamp":"2020-01-08T17:55:54.000Z","event":"app_loaded","device_type":"desktop","browser_version":"79.0"}
+{"initiator_id":1234445,"timestamp":"2020-01-08T17:57:06.000Z","event":"app_loaded","device_type":"desktop","browser_version":"79.0"}
+{"initiator_id":1234444,"timestamp":"2020-01-08T17:57:19.000Z","event":"app_loaded","device_type":"desktop","browser_version":"79.0"}
