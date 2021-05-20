@@ -8,7 +8,7 @@ This application processes the file dataset.json lacated in the *data/* folder o
 - [Installation](#installation)
 - [Test](#test)
 - [Application](#application)
-- [Run with jobs](#Run with jobs)
+- [Run with jobs]
 
 ## Prerequisites
 
@@ -38,12 +38,12 @@ Run the following line to run the tests
 pytest test/unit.py
 ```
 
-### Run Application
+### Application
 
 The application support two types of jobs 
 
 1. job = load_events: 
-Select the events *app_loaded* and *registered* and save them in the home directory as partitioned parquet files:
+Select the events *app_loaded* and *registered* and save them in the *home directory* as partitioned parquet files:
 
 ```bash
 Ex:
@@ -108,12 +108,12 @@ The output will be display in the console as follows and the percentage will be 
 ### Run with jobs
 
 ```bash
-python main.py --job=load_events    # For first option
+spark-submit main.py --job=load_events    # For first option
 ```
 ```bash
-python main.py --job=calculate_metric    # For second option
+spark-submit main.py --job=calculate_metric    # For second option
 ```
 
 ### Disclamer
 
-This application only makes use of pyspark it does not use any distributed file system such as HDFS.
+This application only makes use of pyspark it does not make use of any distributed file system such as HDFS.
