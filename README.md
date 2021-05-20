@@ -7,8 +7,8 @@ This application processes the file dataset.json lacated in the *data/* folder o
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Test](#test)
-- [Run Application](#run application)
-- [Run with jobs](#run with jobs)
+- [Application](#application)
+- [Run with jobs](#Run with jobs)
 
 ## Prerequisites
 
@@ -19,9 +19,10 @@ This application processes the file dataset.json lacated in the *data/* folder o
 ### Installation
 
 * `git clone ` this repository
-* change into the new directory `cd data-engineer-test`
+* `cd data-engineer-test`
 
-You will need to install the requirements from requirements.txt. Following one of the next options:
+You will need to install the requirements from the requirements.txt file. 
+Follow one of the next options:
 
 ```bash
 python3 -m pip install -r requirements.txt
@@ -64,7 +65,7 @@ there are events from *registered* that dont have channel and events from *app_l
 device_type
 
 Even though during data exploration all the fields except form "time" had the especified data type
-the application stills validate the data agains the event specification.
+the application validate the data againts the event specification.
 
 ```bash
 {
@@ -87,8 +88,8 @@ Calculate the fraction of users who loaded the application at leat once during t
 calendar week after registration. The calendar week does not include the date of
 registration. 
 
-if user registered on 2020-01-01 (Wednesday) then it will only be considered if it
-loaded the application from next Monday until next Sunday (2020-01-06 - 2020-01-12)
+if an user is registered on 2020-01-01 (Wednesday) then it will only be considered to the metric
+if it loaded the application during the perior of time of next Monday until next Sunday (2020-01-06 - 2020-01-12)
 
 The output will be display in the console as follows and the percentage will be rounded to
 2 decimal places.
@@ -98,7 +99,7 @@ The output will be display in the console as follows and the percentage will be 
                 //-------------------------------------------------------------------
 
                 Fraction of users who loaded the app at least once during the calendar 
-                week after the registration: 7 %
+                week after the registration: 7.57 %
 
                 //--------------------------------------------------------------------
                 //-------------------------------------------------------------------
